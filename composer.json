@@ -16,5 +16,5 @@
     "autoload": {
         "psr-4": {"sqj\\mo\\": "./"}
     },
-    "minimum-stability":"dev"
+    "minimum-stability":"stable"
 }
