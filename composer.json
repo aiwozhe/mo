@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-0": {
-      "sunqj\\mo": "src/"
+      "sqj\\mo": "src/"
     }
   }
 }
