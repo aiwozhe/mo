@@ -46,3 +46,4 @@ crashlytics-build.properties
 fabric.properties
 
 /vendor/*
+.DS_Store
