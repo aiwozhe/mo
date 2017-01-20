@@ -25,10 +25,8 @@ class Gettext extends AbstractFileLoader
      * load(): defined by FileLoaderInterface.
      *
      * @see    FileLoaderInterface::load()
-     * @param  string $locale
      * @param  string $filename
-     * @return TextDomain
-     * @throws Exception\InvalidArgumentException
+     * @return array|null|\Zend\I18n\Translator\TextDomain
      */
     public function load($filename)
     {
