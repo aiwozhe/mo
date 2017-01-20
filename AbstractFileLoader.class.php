@@ -1,6 +1,6 @@
 <?php
 
-namespace sqj\mo;
+namespace sunqj\mo;
 /**
  * Abstract file loader implementation; provides facilities around resolving
  * files via the include_path.

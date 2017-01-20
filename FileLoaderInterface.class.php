@@ -1,6 +1,6 @@
 <?php
 
-namespace sqj\mo;
+namespace sunqj\mo;
 /**
  * File loader interface.
  */
