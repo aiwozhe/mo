@@ -35,6 +35,21 @@ class Translator
     }
 
     /**
+     * 获取翻译字典
+     *
+     * @param string $file 翻译文件
+     * @return mixed
+     */
+    public function dictionary($file)
+    {
+        //判断语言文件是否存在
+        if (file_exists($file) && is_file($file) && is_readable($file))
+        {
+            return $this->translator->load($file);
+        }
+    }
+
+    /**
      * 添加翻译器（翻译文件）
      * @param string $file 语言翻译文件
      */
